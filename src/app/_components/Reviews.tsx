@@ -21,7 +21,7 @@ function Reviews() {
   return (
     <div className="grid bg-fill border border-stroke rounded-md">
       <div className="border border-stroke px-8 md:px-10 py-4 rounded-t-md">
-        <Heading2 className="">
+        <Heading2>
           Reviews
         </Heading2>
       </div>

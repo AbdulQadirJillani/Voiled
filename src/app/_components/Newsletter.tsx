@@ -5,7 +5,7 @@ import Heading1 from "./Heading1"
 function Newsletter() {
   return (
     <div className="mt-9 space-y-9">
-      <Heading1 className="">
+      <Heading1>
         Sign up to the newsletter!
       </Heading1>
       <div className="flex w-full max-w-sm items-center gap-5">

@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils"
 
 type Props = {
   children: React.ReactNode,
-  className: string
+  className?: string
 }
 
 function Text({ children, className }: Props) {

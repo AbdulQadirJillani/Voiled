@@ -35,7 +35,7 @@ function Questions() {
   return (
     <div className="grid bg-fill border border-stroke rounded-md">
       <div className="border border-stroke px-8 md:px-10 py-4 rounded-t-md">
-        <Heading2 className="">
+        <Heading2>
           Questions..? We have some answers.
         </Heading2>
       </div>
