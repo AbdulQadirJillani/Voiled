@@ -7,7 +7,7 @@ type Props = {
 
 function Heading3({ children, className }: Props) {
   return (
-    <h3 className={cn('text-heading text-xl md:text-2xl font-bold leading-[1.35] tracking-tight', className)}>
+    <h3 className={cn('text-heading text-lg md:text-xl font-bold leading-[1.35] tracking-tight', className)}>
       {children}
     </h3>
   )

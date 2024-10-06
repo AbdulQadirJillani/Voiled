@@ -18,6 +18,7 @@ const config: Config = {
   			text: 'var(--text)',
   			btn1: 'var(--btn1)',
   			btn2: 'var(--btn2)',
+			gradient2: 'var(--gradient2)',
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',

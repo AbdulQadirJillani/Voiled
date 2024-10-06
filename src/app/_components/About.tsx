@@ -33,7 +33,7 @@ function About() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {
             data.map((i, n) => (
-              <div key={i.text} className={n==3 ? "lg:col-span-3" : ""}>
+              <div key={i.text} className={n==3 ? "lg:col-span-3 w-[65%] mx-auto" : ""}>
                 <Text className="text-[20px] md:text-center font-extrabold mb-1">
                   {i.heading}
                 </Text>

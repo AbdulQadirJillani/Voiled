@@ -7,7 +7,7 @@ type Props = {
 
 function Text({ children, className }: Props) {
   return (
-    <p className={cn('text-lg text-text', className)}>
+    <p className={cn('text-md md:text-lg text-text', className)}>
       {children}
     </p>
   )
